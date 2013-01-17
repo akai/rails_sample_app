@@ -19,11 +19,13 @@ group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails'
   gem 'guard-rspec'
+  gem 'pry'
 end
 
 group :test do
   gem 'capybara'
   gem 'rb-fsevent', '0.9.1', :require => false
+  gem 'factory_girl_rails'
 end
 
 # To use ActiveModel has_secure_password
