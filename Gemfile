@@ -22,6 +22,10 @@ group :development, :test do
   gem 'pry'
 end
 
+group :development do
+  gem 'annotate'
+end
+
 group :test do
   gem 'capybara'
   gem 'rb-fsevent', '0.9.1', :require => false
